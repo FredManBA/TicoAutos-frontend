@@ -1,0 +1,23 @@
+.dashboard-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.dashboard-card {
+  border: 1px solid rgba(245, 231, 208, 0.12);
+  background: linear-gradient(180deg, rgba(17, 24, 39, 0.94), rgba(28, 25, 23, 0.86));
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+}
+
+.dashboard-card h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}

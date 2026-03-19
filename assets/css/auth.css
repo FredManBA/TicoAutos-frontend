@@ -1,0 +1,17 @@
+.auth-layout {
+  display: grid;
+  min-height: calc(100vh - 6rem);
+  place-items: center;
+  padding: 2rem 1rem 4rem;
+}
+
+.auth-card {
+  width: min(100%, 34rem);
+  border: 1px solid rgba(245, 231, 208, 0.12);
+  background:
+    radial-gradient(circle at top right, rgba(251, 146, 60, 0.12), transparent 28%),
+    linear-gradient(180deg, rgba(17, 24, 39, 0.92), rgba(28, 25, 23, 0.92));
+  border-radius: 1.75rem;
+  padding: 2rem;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.28);
+}
