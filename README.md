@@ -1,5 +1,7 @@
 # TicoAutos Frontend
 
+Nota: Si, todos los commits del front end estan hechos a ultima hora ya que olvide ir haciendo los commits y ademas gran parte si estan hechos con IA, esto debido a mi incapacidad de diseño de front end (soy muy malo en diseño), pido disculpas pero prometo que manejo todos los temas al dedo. gracias por su tiempo y compresion usuario curioso (Hola profe).
+
 Frontend desacoplado del proyecto final `TicoAutos` para ISW-711.
 
 ## Stack
